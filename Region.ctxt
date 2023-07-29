@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Region
+comment0.text=\n\ Region\n\ Represents\ a\ rectangular\ region,\ bounded\ on\ the\ west,\ north,\ east,\ and\ south.\n\ Has\ methods\ to\n\ \ -\ determine\ whether\ a\ Location\ or\ (x,y)\ position\ is\ in\ the\ region\n\ \ -\ determine\ whether\ a\ Location\ or\ (x,y)\ position\ is\ on\ the\ boundary\n\ \ -\ return\ a\ new\ Region\ that\ is\ the\ intersection\ (overlapping\ region)\n\ \ \ \ of\ this\ and\ another\ region.\n\ \ -\ draw\ the\ region\ as\ a\ rectangle\ of\ a\ specified\ color\n\ You\ are\ permitted\ to\ modify\ this\ class\ if\ you\ wish.\n\ You\ are\ not\ required\ to\ use\ this\ class.\n
+comment1.params=west\ north\ east\ south
+comment1.target=Region(double,\ double,\ double,\ double)
+comment1.text=Construct\ region.
+comment2.params=col
+comment2.target=void\ draw(java.awt.Color)
+comment3.params=loc
+comment3.target=boolean\ contains(Location)
+comment3.text=\n\ Is\ a\ location\ within\ this\ region\n
+comment4.params=x\ y
+comment4.target=boolean\ contains(double,\ double)
+comment4.text=\n\ Is\ a\ position\ within\ this\ region\n
+comment5.params=loc
+comment5.target=boolean\ onBoundary(Location)
+comment5.text=\n\ Is\ a\ location\ on\ the\ boundary\ of\ this\ region\n
+comment6.params=x\ y
+comment6.target=boolean\ onBoundary(double,\ double)
+comment6.text=\n\ Is\ a\ position\ on\ the\ boundary\ of\ this\ region\n
+comment7.params=other
+comment7.target=Region\ intersection(Region)
+comment7.text=\n\ Return\ the\ new\ region\ that\ is\ the\ intersection\ of\ this\ region\ and\ the\ other,\n\ return\ an\ empty\ region\ if\ no\ such\ region\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9
